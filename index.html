@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Library</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <!-- header -->
+  <header class="main-header">
+    <div class="container">
+      <h1 class="header-title">Library</h1>
+      <a href="#"><button type="button" class="header-btn effect-btn">Log In</button></a>
+    </div>
+  </header>
+  <!-- /header -->
+
+  <!-- main -->
+  <main class="main">
+    <div class="container main-container">
+      <div class="main-content_header">
+        <button class="main-content_btn effect-btn"><i class="fa-solid fa-plus"></i> Add Book</button>
+      </div>
+      <div class="modal-box"></div>
+      <div class="modal-container">
+        <div class="modal-content">
+          <h1>Add New Book</h1>
+          <form class="content-modal_form">
+            <input type="text" name="bookName" placeholder="Book Name" class="modal-input" data-input>
+            <input type="text" name="autorName" placeholder="Autor Name" class="modal-input" data-input>
+            <input type="number" name="bookPage" placeholder="Book Page" class="modal-input" data-input>
+            <div class="checkbox-container">
+              <label for="read">Have You Read</label>
+              <input type="checkbox" id="read" data-input>
+            </div>
+            <button class="modal-btn effect-btn" type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+      <div class="main-cards"></div>
+    </div>
+  </main>
+  <!-- /main -->
+
+  <!-- footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <h4 class="footer-text">Davlatov Muhriddin</h4>
+    </div>
+  </footer>
+  <!-- /footer -->
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
